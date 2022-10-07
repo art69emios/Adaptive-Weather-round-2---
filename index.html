@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-touch-icon.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+   <link rel="manifest" href="favicon/site.webmanifest">
+   <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+   <meta name="msapplication-TileColor" content="#da532c">
+   <meta name="theme-color" content="#ffffff">
+   <title>Super Weather</title>
+</head>
+<body>
+  
+   
+   <main >
+      <h1 class="my-weather">MY WEATHER</h1>
+      <div class="search-input">
+         <input name="search" placeholder="location" class="search" type="text">
+         <button class="search-btn btn" >search</button>
+      </div>
+      <div class="error-message"> Uups... :( City is not found</div>
+
+      <div class="main-info">
+         <div class="city-weather">
+            <span class="city"></span>
+            <span class="weather-main"></span>
+         </div>
+         <div class="teamperature">
+            <div class="teamper"> </div>
+         </div>
+         <div class="forecast-btn">
+            <button class="forecast-btn__show-forecast btn">show forecast</button>
+         </div>
+      </div>
+
+      <div class="info-about-weather">
+
+         <div class="info-about-weather__wind-info">
+            <div class="wind-info__weather">Direction of the wind: <span class="direction"></span></div>
+            <div class="wind-info__weather">Wind speed: <span class="wind-speed"></span></div>
+            <div class="wind-info__weather">Pressure: <span class="pressure"></span></div>
+         </div>
+         
+         <div class="info-about-weather__sunset-rice">
+            <div class="sunset-rice">Sunrice: <span class="sunrice"></span></div>
+            <div class="sunset-rice">Sunset: <span class="sunset"></span> </li></div>
+         </div>
+         
+      </div>
+
+
+      <div class="forecast-7days">
+         <div class="forecast-7days__weather">
+            <p class="day1 days"> </p>
+            <div class="img-temper">
+               <div class="img1 image-weather"></div><div class="temperature1 forecast-temps"></div>
+            </div>
+            
+         </div>
+
+         <div class="forecast-7days__weather">
+            <p class="day2 days"> </p>
+            <div class="img-temper">
+               <div class="img2 image-weather"></div><div class="temperature2 forecast-temps"></div>
+            </div>
+            
+         </div>
+
+         <div class="forecast-7days__weather">
+            <p class="day3 days"> </p>
+            <div class="img-temper">
+               <div class="img3 image-weather"></div><div class="temperature3 forecast-temps"></div>
+            </div>
+
+            
+         </div>
+
+         <div class="forecast-7days__weather">
+            <p class="day4 days "> </p>
+            <div class="img-temper">
+               <div class="img4 image-weather"></div><div class="temperature4 forecast-temps"></div>
+            </div>
+
+            
+         </div>
+
+         <div class="forecast-7days__weather">
+            <p class="day5 days "> </p>
+            <div class="img-temper">
+               <div class="img5 image-weather"></div><div class="temperature5 forecast-temps"></div>
+            </div>
+         </div>
+      </div>
+   </main>
+
+   <script src="script.js"></script>
+</body>
+</html>
